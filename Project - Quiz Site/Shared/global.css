@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Oswald:wght@200..700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+:root {
+
+    --margin-xs: 4px;
+    --margin-sm: 8px;
+    --margin-md: 12px;
+    --margin-lg: 20px;
+    --margin-xl: 24px;
+
+    --padding-xs: 8px;
+    --padding-sm: 10px;
+    --padding-md: 14px;
+    --padding-lg: 20px;
+    --padding-xl: 24px;
+
+    --font-size-xs: 8px;
+    --font-size-sm: 10px;
+    --font-size-md: 12px;
+    --font-size-lg: 14px;
+    --font-size-xl: 16px;
+    --font-size-1xl: 20px;
+    --font-size-2xl: 32px;
+    --font-size-3xl: 40px;
+
+    --primary-color: #B1C9CB;
+    --secondary-color: #E2F3FC;
+    --in-depth-blue: #003C47;
+    --dark-blue: #053238;
+    --light-orange: #E6946D;
+    --dark-orange: #bf7051;
+    --antique-white: rgb(214, 216, 211);
+    --Cream: hsl(30, 38%, 92%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grayish-Blue: hsl(210, 46%, 95%);
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Grayish-Blue: hsl(212, 23%, 69%);
+    --Very-Dark-Grayish-Blue: hsl(217, 19%, 35%);
+    --color-surface-200: #313131;
+    --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
+    --color-surface-300: #474747;
+    --color-surface-100: #1c1c1c;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+html body {
+    font-family: "Titillium Web", sans-serif;
+}

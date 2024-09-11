@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../Images/favicon-01.png ">
+    <title> Q </title>
+    <link rel="stylesheet" href="./quiz-game.css">
+    <link rel="stylesheet" href="../Shared/global.css">
+    <link rel="stylesheet" href="../Shared/animations.css">
+    <link rel="stylesheet" href="../Shared/shared-class.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="form-check form-switch">
+        <input class="form-check-input form-check" type="checkbox" role="switch" id="flexSwitchCheckDefault"
+            onclick="toggleTheme(`theme-switch-dark`)">
+    </div>
+    <a href="../Main-page/quiz-main-page.html" class="main-page-btn"><i class="bi bi-arrow-left-square"></i></a>
+    <section class="difficulty-cnt" id="difficulty-cnt">
+        <h2>Choose your difficulty</h2>
+        <div class="difficulty-btn">
+            <button id="easy-btn" class="btn" onclick="selectDifficulty(`easy`)">Easy</button>
+            <button id="medium-btn" class="btn" onclick="selectDifficulty(`medium`)">Medium</button>
+            <button id="hard-btn" class="btn" onclick="selectDifficulty(`hard`)">Hard</button>
+        </div>
+    </section>
+    <div class="hidden-class" id="quiz-cnt">
+        <h2 id="question-title"></h2>
+        <div id="answers">
+        </div>
+        <button id="next-btn" class="next-btn">Next question</button>
+    </div>
+    <button type="submit" id="submit-btn" class="hidden-class" onclick="openPopUp()">Submit questions</button>
+    <div id="pop-up" class="pop-up-hidden">
+        <p id="result-statement"></p>
+        <button class="pop-up-btn" id="close-popup" onclick="closePopUp()">Back to main</button>
+    </div>
+    <audio id="cricket-sound" src="../Sounds/cricket-sound-effect.mp3"></audio>
+
+    <script src="../Models/configData.js"> </script>
+    <script src="../Shared/components.js"> </script>
+    <script src="./quiz-game.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

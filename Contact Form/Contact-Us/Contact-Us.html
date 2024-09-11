@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Contact form</title>
+    <link rel="icon" type="image/png" href="../Images/bb card-01.png ">
+    <link rel="stylesheet" href="../Contact-Us/Contact-us.css">
+    <link rel="stylesheet" href="../Shared/global.css">
+</head>
+
+<body>
+    <article class="contact-container">
+        <h1 class="main-header">Contact <span class="last-word">Us</span>.</h1>
+        <p>Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+        <form>
+            <div class="credential-field">
+                <div class="name-field">
+                    <label for="name"> Name* </label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="surname-field">
+                    <label for="surname"> Surname* </label>
+                    <input type="text" id="surname" name="surname" required>
+                </div>
+            </div>
+            <label for="username"> Email adress* </label>
+            <input type="text" id="username" name="username" required>
+            <label for="phone-number">Phone number*</label>
+            <input type="tel" id="phone-number" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" maxlength="10" minlength="10"
+                required>
+            <label> Message</label>
+            <textarea cols="40" rows="10" maxlength="500"></textarea>
+            <input type="submit" value="Send a message" name="message">
+            <p> How would you like to be contacted?*</p>
+            <div class="contact-method">
+                <input type="radio" id="contact-email" name="contact-method" value="email">
+                <label for="contact-email"> By email</label>
+                <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                <label for="contact-phone"> By phone</label>
+            </div>
+        </form>
+    </article>
+</body>
+
+</html>

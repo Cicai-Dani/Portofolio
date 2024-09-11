@@ -1,0 +1,185 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../resources/photo-1514525253161-7a46d19cd819.avif);
+    background-position: center;
+    background-repeat: space;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, .8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.personal-details,
+fieldset {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="radio"],
+input[type="checkbox"],
+datalist select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    opacity: .8;
+
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.gender-options,
+.attendance-options,
+.participation-options,
+.music-options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gender-options input,
+.attendance-options input,
+.participation-options input,
+.music-options input {
+    margin-right: 10px;
+}
+
+.music-option input[type="checkbox"] {
+    display: none;
+}
+
+.music-option label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 15px auto;
+    border-radius: 15px;
+    background-color: rgb(209, 205, 205);
+    cursor: pointer;
+    width: 45%;
+}
+
+.checkbox-btn:checked+.checkbox-label {
+    background: linear-gradient(to right, #d421bf8a, #3d98e7);
+}
+
+.participate-option input[type="radio"],
+.attendance-option input[type="radio"] {
+    display: none;
+}
+
+.participate-option,
+.attendance-option {
+    text-align: center;
+}
+
+.participate-option label,
+.attendance-option label {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 15px auto;
+    border-radius: 15px;
+    background-color: rgb(209, 205, 205);
+    cursor: pointer;
+    width: 20%;
+}
+
+.participate-option input[type="radio"]:checked+.radio-label,
+.attendance-option input[type="radio"]:checked+.radio-label {
+    background: linear-gradient(to right, #d421bf8a, #3d98e7);
+}
+
+.personal-details {
+    text-align: center;
+}
+
+.personal-details input[type="radio"] {
+    display: none;
+}
+
+.personal-details .gender-label {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 15px auto;
+    border-radius: 15px;
+    background-color: rgb(209, 205, 205);
+    cursor: pointer;
+    width: 20%;
+
+}
+
+.personal-details input[type="radio"]:checked+.gender-label {
+    background: linear-gradient(to right, #d421bf8a, #3d98e7);
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-button {
+    padding: 10px 20px;
+    background-color: #cf0c0c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #337b35;
+}
+
+.reset-button:hover {
+    background-color: #770606;
+}
+
+.role-choice{
+background-color: rgb(209, 205, 205);
+border-radius: 5px;
+appearance: none;
+border: 1px solid rgb(186, 183, 183);
+}
+
+.role-choice:hover{ 
+    background: linear-gradient(to right, #d421bf8a, #3d98e7);
+}

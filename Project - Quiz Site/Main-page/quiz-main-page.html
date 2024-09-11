@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../Images/favicon-01.png ">
+    <title> Q </title>
+    <link rel="stylesheet" href="./quizz-main-page.css">
+    <link rel="stylesheet" href="../Shared/global.css">
+    <link rel="stylesheet" href="../Shared/animations.css">
+    <link rel="stylesheet" href="../Shared/shared-class.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="menu-cnt" id="desktop-menu">
+                <img src="../Images/Logo Q.png" alt="logo image" class="logo">
+                <nav class="nav-links">
+                    <a href="#contact-cnt">Contact</a>
+                    <a href="#quiz-slider">Quizez</a>
+                    <a href="../Quiz-creator-page/quiz-creator-page.html">Make your own</a>
+                    <a href="../Login-page/quiz-login-form.html" class="login-link">Login</a>
+                </nav>
+            </div>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" id="hidden">
+                <div class="container-fluid">
+                    <img src="../Images/Logo Q.png" alt="logo image" class="logo">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                            </svg></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact-cnt">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#quiz-slider">Quizez</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../Quiz-creator-page/quiz-creator-page.html">Make your own</a>
+                            <li class="nav-item">
+                                <a class="nav-link login-link" href="../Login-page/quiz-login-form.html">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="banner">
+                <div class="form-check form-switch">
+                    <input class="form-check-input form-check" type="checkbox" role="switch" id="flexSwitchCheckDefault"
+                        onclick="toggleTheme(`theme-switch-dark`)">
+                </div>
+                <h2 class="banner-heading">Welcome to a new learning experience!</h2>
+                <p class="info"> Are you ready to dive into the depths of knowledge with a fresh set of quizzes? Join us
+                    on this intellectual adventure and test your limits! Each question is an opportunity to learn
+                    something new and demonstrate your mental prowess. Let’s get started!
+                </p>
+            </div>
+        </header>
+        <picture class="depth-img-in"></picture>
+        <section class="mktg-card-a">
+            <div class="card-text">
+                <h2 class="card-title">Would you like to learn something new and improve your knowledge?</h2>
+                <p class="supporting-txt">Our website offers a comprehensive array of subjects and areas of study,
+                    encompassing the vast expanse of human knowledge from the rudimentary beginnings of the Stone Age to
+                    the sophisticated and intricate realms of contemporary computer science. This diverse curriculum is
+                    designed to cater to a wide range of academic interests and pursuits, ensuring a deep and thorough
+                    understanding of both historical developments and cutting-edge technological advancements.</p>
+            </div>
+        </section>
+        <section class="mktg-card-b">
+            <div class="card-text">
+                <h2 class="card-title">Or maybe just to have fun with friend on social occasions?</h2>
+                <p class="supporting-txt">Our website provides a unique and enriching opportunity to simultaneously
+                    experience the excitement of a quiz night and expand one’s knowledge. It offers an educational
+                    platform where individuals can delve into frequently posed questions on a wide array of topics,
+                    including general culture and music, thereby enhancing their understanding and appreciation of these
+                    subjects in a manner that is both engaging and informative.
+                </p>
+            </div>
+        </section>
+        <picture class="depth-img-out"></picture>
+        <section class="design-card">
+            <div class="card-text">
+                <p class="supporting-txt">Our platform is universally accessible, inviting you to seize the opportunity
+                    and engage with our curated quizzes. Immerse yourself in the experience, and perhaps, feel inspired
+                    to craft your own. Take a leisurely approach, relish the enjoyment, and consider exploring the
+                    feedback from our community.If at any point you find yourself in need of assistance or if you’re
+                    inclined to share your perspectives and ideas with us, please don’t hesitate to send us a message.
+                    We are always available and keen to offer our support and engage in conversation with you. Your
+                    input is valuable, and we’re just a message away from providing the help you need.</p>
+            </div>
+        </section>
+        <section class="photography-card">
+        </section>
+        <div class="slider" id="quiz-slider">
+            <div class="quiz-card">
+                <img src="../Images/Category-img-history.jpg" alt=" an image" class="card-image">
+                <p class="supp-txt">Welcome to our History Quiz! Test your knowledge on the Roman era’s pivotal moments
+                    in a few engaging questions. Ready to dive into the past?</p>
+                <div class="text-behind">
+                    Gotcha🤡
+                </div>
+                <a href="../Game-page/quiz-game.html" class="start-btn" onclick="selectCategory(`History`)">Start
+                    quiz</a>
+            </div>
+            <div class="quiz-card">
+                <img src="../Images/Category-img-science.jpg" alt=" an image" class="card-image">
+                <p class="supp-txt">Join our interactive science quiz! From atoms to galaxies, test your knowledge and
+                    unravel the universe’s mysteries. Ready to ignite your curiosity? 🌌🔬 </p>
+                <div class="text-behind">
+                    Gotcha🎭
+                </div>
+                <a href="../Game-page/quiz-game.html" class="start-btn" onclick="selectCategory(`Science`)">Start
+                    quiz</a>
+            </div>
+            <div class="quiz-card">
+                <img src="../Images/Category-img-it-2.jpg" alt=" an image" class="card-image">
+                <p class="supp-txt">Explore TypeScript and Angular in our engaging quiz! Test your knowledge of these
+                    powerful technologies and discover fascinating insights.
+                    Ready to participate? 🚀</p>
+                <div class="text-behind">
+                    Gotcha🤡
+                </div>
+                <a href="../Game-page/quiz-game.html" class="start-btn" onclick="selectCategory(`IT`)">Start
+                    quiz</a>
+            </div>
+            <div class="quiz-card">
+                <img src="../Images/Category-img-geography.jpg" alt=" an image" class="card-image">
+                <p class="supp-txt">If you’re curious about experiencing the thrill of a quiz night, join us for our
+                    general knowledge quiz and put your smarts to the test! 🧠✨ </p>
+                <div class="text-behind">
+                    Gotcha🎭
+                </div>
+                <a href="../Game-page/quiz-game.html" class="start-btn"
+                    onclick="selectCategory(`General Knowledge`)">Start
+                    quiz</a>
+            </div>
+            <div class="quiz-card">
+                <img src="../Images/add-question-img-01.png" alt=" an image" class="card-image">
+                <p class="supp-txt">For a personalized and engaging quiz experience tailored to your event or simply for
+                    entertainment, click here and let’s begin creating yor own quiz. </p>
+                <a href="../Quiz-creator-page/quiz-creator-page.html" class="create-btn">Create your own
+                    quiz</a>
+            </div>
+            <button id="next"><i class="bi bi-caret-right-fill"></i></i></button>
+            <button id="prev"><i class="bi bi-caret-left-fill"></i></button>
+        </div>
+        <section class="testimonial-section">
+            <div class="testimonial-heading-box">
+                <h2>Client testimonials</h2>
+                <div class="testimonial-section">
+                    <div class="client-card">
+                        <img class="id-photo" src="../Images/dave.jpg">
+                        <p class="statement"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam
+                            repudiandae nihil ab architecto reiciendis numquam ex aliquid voluptatibus facere
+                            voluptatum.
+                        </p>
+                        <span class="name-span">John Doe.</span>
+                        <span class="role-span">Frontend Developer</span>
+                    </div>
+                    <div class="client-card">
+                        <img class="id-photo" src="../Images/dave.jpg">
+                        <p class="statement">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cumque
+                            magni inventore, deleniti beatae neque placeat ab. Unde, harum. Cupiditate. </p>
+                        <span class="name-span">John Doe.</span>
+                        <span class="role-span">Bar Manager</span>
+                    </div>
+                    <div class="client-card">
+                        <img class="id-photo" src="../Images/dave.jpg">
+                        <p class="statement">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quibusdam
+                            corrupti omnis minus debitis repudiandae mollitia adipisci sapiente eaque deleniti!
+                        </p>
+                        <span class="name-span">John Doe.</span>
+                        <span class="role-span">Bussines Owner</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="bg-wrapper">
+            <article class="contact-container" id="contact-cnt">
+                <h1 class="main-header">Contact <span class="last-word">Us</span>.</h1>
+                <p class="contact-txt">Got a question? We'd love to hear from you. Send us a message and we'll respond
+                    as soon as possible.
+                </p>
+                <form>
+                    <div class="credential-field">
+                        <div class="name-field">
+                            <label for="name"> Name* </label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="surname-field">
+                            <label for="surname"> Surname* </label>
+                            <input type="text" id="surname" name="surname" required>
+                        </div>
+                    </div>
+                    <label for="username"> Email adress* </label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="phone-number">Phone number*</label>
+                    <input type="tel" id="phone-number" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" maxlength="10"
+                        minlength="10" required>
+                    <label> Message</label>
+                    <textarea cols="40" rows="10" maxlength="500"></textarea>
+                    <input type="submit" value="Send a message" name="message">
+                    <p class="contact-txt"> How would you like to be contacted?*</p>
+                    <div class="contact-method">
+                        <input type="radio" id="contact-email" name="contact-method" value="email">
+                        <label for="contact-email"> By email</label>
+                        <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                        <label for="contact-phone"> By phone</label>
+                    </div>
+                </form>
+            </article>
+        </div>
+        <footer>
+            <img class="logo" src="../Images/Logo Q.png" alt="logo image">
+            <div class="nav-links">
+                <a href="#contact-cnt">Contact</a>
+                <a href="#quiz-slider">Quizez</a>
+                <a href="../Quiz-creator-page/quiz-creator-page.html">Make your own</a>
+            </div>
+            <div class="icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"> <i class="bi bi-instagram"></i></a>
+                <a href="#"> <i class="bi bi-twitter"></i></a>
+                <a href="#"> <i class="bi bi-pinterest"></i></a>
+            </div>
+        </footer>
+    </main>
+    <script src="../Models/configData.js"> </script>
+    <script src="../Models/UserRepozitory.js"> </script>
+    <script src="../Shared/components.js"></script>
+    <script src="../Game-page/quiz-game.js"> </script>
+    <script src="./quiz-main-page.js"> </script>
+    <script src="../Shared/translate.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

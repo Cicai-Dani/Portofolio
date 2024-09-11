@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --margin-xs: 4px;
+    --margin-sm: 8px;
+    --margin-md: 12px;
+    --margin-lg: 20px;
+    --margin-xl: 24px;
+
+    --padding-xs: 8px;
+    --padding-sm: 12px;
+    --padding-md: 14px;
+    --padding-lg: 20px;
+    --padding-xl: 24px;
+
+    --font-size-xs: 4px;
+    --font-size-sm: 8px;
+    --font-size-md: 12px;
+    --font-size-lg: 14px;
+    --font-size-xl: 16px;
+    --font-sixze-2l: 34px;
+    --font-size-3xl: 50px;
+
+    --sofa-color: #aa3955;
+    --olive-green: rgb(137, 145, 118);
+    --wall-color: rgb(214, 216, 211);
+
+
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+
+
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap')

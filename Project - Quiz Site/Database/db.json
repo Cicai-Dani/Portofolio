@@ -1,0 +1,1537 @@
+{
+  "users": [
+    {
+      "id": "2327",
+      "username": "dani.cicai",
+      "email": "cicai.nvm@gmail.com",
+      "password": "Alabala123",
+      "dateOfBirth": "1998-07-17",
+      "role": "admin"
+    },
+    {
+      "id": "5150",
+      "username": "cami",
+      "email": "cami@gmail.com",
+      "password": "123456Aa",
+      "dateOfBirth": "1998-06-22"
+    },
+    {
+      "id": "9707",
+      "username": "someone",
+      "email": "someone@gmail.com",
+      "password": "Alabala123",
+      "dateOfBirth": "1998-11-30"
+    },
+    {
+      "id": "ebe7",
+      "username": "someone2",
+      "email": "someone2@gmail.com",
+      "password": "Alabala123",
+      "dateOfBirth": "2009-09-29"
+    },
+    {
+      "id": "1a7b",
+      "username": "someone3",
+      "email": "someone3@gmail.com",
+      "password": "Alabala123",
+      "dateOfBirth": "1992-09-28"
+    },
+    {
+      "id": "0f01",
+      "username": "someone5",
+      "email": "someone5@gmail.com",
+      "password": "Alabala123",
+      "dateOfBirth": "2003-05-23",
+      "role": "user"
+    },
+    {
+      "id": "28b7",
+      "username": "someone6",
+      "email": "someone6@gmail.com",
+      "password": "Alabala123",
+      "dateOfBirth": "1994-03-22",
+      "role": "user"
+    },
+    {
+      "id": "cdd9",
+      "username": "someone7",
+      "email": "someone7@gmail.com",
+      "password": "Alabala123",
+      "dateOfBirth": "1990-04-25",
+      "role": "user"
+    },
+    {
+      "id": "9abb",
+      "username": "somebody",
+      "email": "somebody@gmail.com",
+      "password": "Alabala123",
+      "dateOfBirth": "1988-08-27",
+      "role": "user"
+    },
+    {
+      "id": "3664",
+      "username": "somebody2",
+      "email": "somebody2@gmail.com",
+      "password": "Alabala123",
+      "dateOfBirth": "2004-10-19",
+      "role": "user"
+    },
+    {
+      "id": "fbe6",
+      "username": "somebody3",
+      "email": "somebody3@gmail.com",
+      "password": "Alabala123",
+      "dateOfBirth": "2020-10-29",
+      "role": "user"
+    },
+    {
+      "id": "d19e",
+      "username": "spaller",
+      "email": "spaller@gmail.com",
+      "password": "Alabala123",
+      "dateOfBirth": "2001-10-29",
+      "role": "user"
+    },
+    {
+      "id": "3a37",
+      "username": "bogdan",
+      "email": "bogdan@gmail.com",
+      "password": "Alabala123",
+      "dateOfBirth": "1996-11-28",
+      "role": "user"
+    },
+    {
+      "id": "05af",
+      "username": "oliver",
+      "email": "oliver@gmail.com",
+      "password": "Alabala123",
+      "dateOfBirth": "1988-07-23",
+      "role": "user"
+    },
+    {
+      "id": "2ca4",
+      "username": "Daniel",
+      "email": "dani@gmail.com",
+      "password": "Alabala123",
+      "dateOfBirth": "1984-10-28",
+      "role": "user"
+    },
+    {
+      "id": "7345",
+      "username": "camelia",
+      "email": "camelia@gmail.com",
+      "password": "Alabala123",
+      "dateOfBirth": "1982-12-31",
+      "role": "user"
+    },
+    {
+      "id": "92af",
+      "username": "test1",
+      "email": "test@gmail.com",
+      "password": "Alabala123",
+      "dateOfBirth": "1991-10-30",
+      "role": "user"
+    }
+  ],
+  "questions": [
+    {
+      "id": "2",
+      "question": "Who was the first emperor of Rome?",
+      "correct_answer": "Augustus",
+      "incorrect_answers": [
+        "Julius Caesar",
+        "Caligula",
+        "Tiberius"
+      ],
+      "difficulty": "easy",
+      "category": "History"
+    },
+    {
+      "id": "3",
+      "question": "What was the common currency in the Roman Empire?",
+      "correct_answer": "Denarius",
+      "incorrect_answers": [
+        "Drachma",
+        "Shekel",
+        "Talent"
+      ],
+      "difficulty": "easy",
+      "category": "History"
+    },
+    {
+      "id": "4",
+      "question": "Which structure was used by the Romans for chariot racing?",
+      "correct_answer": "Circus Maximus",
+      "incorrect_answers": [
+        "Colosseum",
+        "Theatre of Pompey",
+        "Roman Forum"
+      ],
+      "difficulty": "easy",
+      "category": "History"
+    },
+    {
+      "id": "5",
+      "question": "What is the name of the Roman goddess of love?",
+      "correct_answer": "Venus",
+      "incorrect_answers": [
+        "Diana",
+        "Minerva",
+        "Juno"
+      ],
+      "difficulty": "easy",
+      "category": "History"
+    },
+    {
+      "id": "6",
+      "question": "Which Roman road was known as 'the way of the emperors'?",
+      "correct_answer": "Via Appia",
+      "incorrect_answers": [
+        "Via Flaminia",
+        "Via Egnatia",
+        "Via Aurelia"
+      ],
+      "difficulty": "easy",
+      "category": "History"
+    },
+    {
+      "id": "7",
+      "question": "What year did the Western Roman Empire fall?",
+      "correct_answer": "476 AD",
+      "incorrect_answers": [
+        "410 AD",
+        "1453 AD",
+        "117 AD"
+      ],
+      "difficulty": "medium",
+      "category": "History"
+    },
+    {
+      "id": "8",
+      "question": "Which emperor divided the Roman Empire into East and West?",
+      "correct_answer": "Diocletian",
+      "incorrect_answers": [
+        "Constantine",
+        "Augustus",
+        "Trajan"
+      ],
+      "difficulty": "medium",
+      "category": "History"
+    },
+    {
+      "id": "9",
+      "question": "What was the name of the Roman fortification that marked the northern limit of Britannia?",
+      "correct_answer": "Hadrian's Wall",
+      "incorrect_answers": [
+        "Antonine Wall",
+        "Limes Germanicus",
+        "Aurelian Walls"
+      ],
+      "difficulty": "medium",
+      "category": "History"
+    },
+    {
+      "id": "10",
+      "question": "Who was the Roman god of war?",
+      "correct_answer": "Mars",
+      "incorrect_answers": [
+        "Jupiter",
+        "Vulcan",
+        "Mercury"
+      ],
+      "difficulty": "medium",
+      "category": "History"
+    },
+    {
+      "id": "11",
+      "question": "Which battle marked the end of the Roman Republic?",
+      "correct_answer": "Battle of Actium",
+      "incorrect_answers": [
+        "Battle of Cannae",
+        "Battle of Pharsalus",
+        "Battle of the Teutoburg Forest"
+      ],
+      "difficulty": "medium",
+      "category": "History"
+    },
+    {
+      "id": "12",
+      "question": "Which Roman Emperor was at the helm during the year of the four emperors?",
+      "correct_answer": "Vespasian",
+      "incorrect_answers": [
+        "Nero",
+        "Galba",
+        "Otho"
+      ],
+      "difficulty": "hard",
+      "category": "History"
+    },
+    {
+      "id": "13",
+      "question": "What was the ancient Roman law code that was the foundation for later Roman law?",
+      "correct_answer": "The Twelve Tables",
+      "incorrect_answers": [
+        "Code of Justinian",
+        "Lex Canuleia",
+        "Lex Hortensia"
+      ],
+      "difficulty": "hard",
+      "category": "History"
+    },
+    {
+      "id": "14",
+      "question": "Which battle did the Romans lose against the Germanic tribes, leading to the abandonment of plans to conquer Germania?",
+      "correct_answer": "Battle of the Teutoburg Forest",
+      "incorrect_answers": [
+        "Battle of Adrianople",
+        "Battle of Cannae",
+        "Battle of Carrhae"
+      ],
+      "difficulty": "hard",
+      "category": "History"
+    },
+    {
+      "id": "15",
+      "question": "Who was the last ruler of the unified Roman Empire before its division into East and West?",
+      "correct_answer": "Theodosius I",
+      "incorrect_answers": [
+        "Constantine the Great",
+        "Diocletian",
+        "Maxentius"
+      ],
+      "difficulty": "hard",
+      "category": "History"
+    },
+    {
+      "id": "16",
+      "question": "What was the name of the Roman military units that were smaller than a legion?",
+      "correct_answer": "Cohort",
+      "incorrect_answers": [
+        "Centuria",
+        "Maniple",
+        "Contubernium"
+      ],
+      "difficulty": "hard",
+      "category": "History"
+    },
+    {
+      "id": "17",
+      "question": "What gas is essential for human respiration?",
+      "correct_answer": "Oxygen",
+      "incorrect_answers": [
+        "Hydrogen",
+        "Carbon Dioxide",
+        "Nitrogen"
+      ],
+      "difficulty": "easy",
+      "category": "Science"
+    },
+    {
+      "id": "18",
+      "question": "What is the first law of motion by Newton called?",
+      "correct_answer": "Law of Inertia",
+      "incorrect_answers": [
+        "Law of Acceleration",
+        "Law of Interaction",
+        "Law of Gravity"
+      ],
+      "difficulty": "easy",
+      "category": "Science"
+    },
+    {
+      "id": "19",
+      "question": "What is the boiling point of water at sea level?",
+      "correct_answer": "100°C",
+      "incorrect_answers": [
+        "90°C",
+        "110°C",
+        "120°C"
+      ],
+      "difficulty": "easy",
+      "category": "Science"
+    },
+    {
+      "id": "20",
+      "question": "Which vitamin is known as ascorbic acid?",
+      "correct_answer": "Vitamin C",
+      "incorrect_answers": [
+        "Vitamin A",
+        "Vitamin D",
+        "Vitamin B12"
+      ],
+      "difficulty": "easy",
+      "category": "Science"
+    },
+    {
+      "id": "21",
+      "question": "What is the most common element in the Earth's atmosphere?",
+      "correct_answer": "Nitrogen",
+      "incorrect_answers": [
+        "Oxygen",
+        "Argon",
+        "Carbon Dioxide"
+      ],
+      "difficulty": "easy",
+      "category": "Science"
+    },
+    {
+      "id": "22",
+      "question": "What is the primary source of energy for the Earth's climate system?",
+      "correct_answer": "The Sun",
+      "incorrect_answers": [
+        "The Moon",
+        "Geothermal Heat",
+        "Wind"
+      ],
+      "difficulty": "medium",
+      "category": "Science"
+    },
+    {
+      "id": "23",
+      "question": "What is the term for an animal that only eats plants?",
+      "correct_answer": "Herbivore",
+      "incorrect_answers": [
+        "Carnivore",
+        "Omnivore",
+        "Insectivore"
+      ],
+      "difficulty": "medium",
+      "category": "Science"
+    },
+    {
+      "id": "24",
+      "question": "What is the chemical symbol for gold?",
+      "correct_answer": "Au",
+      "incorrect_answers": [
+        "Ag",
+        "Ge",
+        "Ga"
+      ],
+      "difficulty": "medium",
+      "category": "Science"
+    },
+    {
+      "id": "25",
+      "question": "Who is known for the law of universal gravitation?",
+      "correct_answer": "Isaac Newton",
+      "incorrect_answers": [
+        "Albert Einstein",
+        "Galileo Galilei",
+        "Nicolaus Copernicus"
+      ],
+      "difficulty": "medium",
+      "category": "Science"
+    },
+    {
+      "id": "26",
+      "question": "What phenomenon causes the Northern and Southern Lights?",
+      "correct_answer": "Auroras",
+      "incorrect_answers": [
+        "Solar Flares",
+        "Lunar Reflection",
+        "Starlight"
+      ],
+      "difficulty": "medium",
+      "category": "Science"
+    },
+    {
+      "id": "27",
+      "question": "What is the name of the hypothesis that proposes the expansion of the universe is accelerating?",
+      "correct_answer": "Dark Energy",
+      "incorrect_answers": [
+        "Big Bang",
+        "Steady State",
+        "Pulsating Universe"
+      ],
+      "difficulty": "hard",
+      "category": "Science"
+    },
+    {
+      "id": "28",
+      "question": "Which subatomic particle is responsible for chemical bonding?",
+      "correct_answer": "Electron",
+      "incorrect_answers": [
+        "Proton",
+        "Neutron",
+        "Quark"
+      ],
+      "difficulty": "hard",
+      "category": "Science"
+    },
+    {
+      "id": "29",
+      "question": "What is the term for the number of protons found in the nucleus of an atom?",
+      "correct_answer": "Atomic Number",
+      "incorrect_answers": [
+        "Mass Number",
+        "Isotope Number",
+        "Neutron Number"
+      ],
+      "difficulty": "hard",
+      "category": "Science"
+    },
+    {
+      "id": "30",
+      "question": "Who developed the theory of general relativity?",
+      "correct_answer": "Albert Einstein",
+      "incorrect_answers": [
+        "Stephen Hawking",
+        "Niels Bohr",
+        "Werner Heisenberg"
+      ],
+      "difficulty": "hard",
+      "category": "Science"
+    },
+    {
+      "id": "31",
+      "question": "What is the name given to the study of fungi?",
+      "correct_answer": "Mycology",
+      "incorrect_answers": [
+        "Bacteriology",
+        "Virology",
+        "Phycology"
+      ],
+      "difficulty": "hard",
+      "category": "Science"
+    },
+    {
+      "id": "23",
+      "question": "What is the term for an animal that only eats plants?",
+      "correct_answer": "Herbivore",
+      "incorrect_answers": [
+        "Carnivore",
+        "Omnivore",
+        "Insectivore"
+      ],
+      "difficulty": "medium",
+      "category": "Science"
+    },
+    {
+      "id": "41",
+      "question": "Which company developed JavaScript?",
+      "correct_answer": "Netscape",
+      "incorrect_answers": [
+        "Microsoft",
+        "Apple",
+        "Sun Microsystems"
+      ],
+      "difficulty": "easy",
+      "category": "IT"
+    },
+    {
+      "id": "42",
+      "question": "What symbol is used to declare a variable in JavaScript?",
+      "correct_answer": "var",
+      "incorrect_answers": [
+        "#",
+        "$",
+        "&"
+      ],
+      "difficulty": "easy",
+      "category": "IT"
+    },
+    {
+      "id": "43",
+      "question": "What does HTML stand for?",
+      "correct_answer": "HyperText Markup Language",
+      "incorrect_answers": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "HyperTool Markup Language"
+      ],
+      "difficulty": "easy",
+      "category": "IT"
+    },
+    {
+      "id": "44",
+      "question": "Which of the following is a JavaScript framework?",
+      "correct_answer": "Angular",
+      "incorrect_answers": [
+        "Laravel",
+        "Django",
+        "Ruby on Rails"
+      ],
+      "difficulty": "easy",
+      "category": "IT"
+    },
+    {
+      "id": "45",
+      "question": "What does CSS stand for?",
+      "correct_answer": "Cascading Style Sheets",
+      "incorrect_answers": [
+        "Computer Style Sheets",
+        "Creative Style System",
+        "Colorful Style Sheets"
+      ],
+      "difficulty": "easy",
+      "category": "IT"
+    },
+    {
+      "id": "46",
+      "question": "What is TypeScript?",
+      "correct_answer": "A superset of JavaScript",
+      "incorrect_answers": [
+        "A type of coffee",
+        "A JavaScript library",
+        "A CSS preprocessor"
+      ],
+      "difficulty": "medium",
+      "category": "IT"
+    },
+    {
+      "id": "47",
+      "question": "Which object in JavaScript contains information about the browser?",
+      "correct_answer": "navigator",
+      "incorrect_answers": [
+        "window",
+        "document",
+        "screen"
+      ],
+      "difficulty": "medium",
+      "category": "IT"
+    },
+    {
+      "id": "48",
+      "question": "What is data-binding in Angular?",
+      "correct_answer": "Synchronization between the model and the view",
+      "incorrect_answers": [
+        "A type of data storage",
+        "A function in AngularJS",
+        "A database management system"
+      ],
+      "difficulty": "medium",
+      "category": "IT"
+    },
+    {
+      "id": "49",
+      "question": "Which Angular feature allows you to mark a value as dirty or pristine?",
+      "correct_answer": "Forms API",
+      "incorrect_answers": [
+        "Data Models",
+        "Directives",
+        "Modules"
+      ],
+      "difficulty": "medium",
+      "category": "IT"
+    },
+    {
+      "id": "50",
+      "question": "What is the purpose of the package.json file in a JavaScript project?",
+      "correct_answer": "To list the project dependencies",
+      "incorrect_answers": [
+        "To write JSON data",
+        "To store JavaScript functions",
+        "To style the project"
+      ],
+      "difficulty": "medium",
+      "category": "IT"
+    },
+    {
+      "id": "51",
+      "question": "What is the difference between '==' and '===' in JavaScript?",
+      "correct_answer": "'==' compares values, '===' compares values and types",
+      "incorrect_answers": [
+        "There is no difference",
+        "'==' is a typo",
+        "'===' is a strict mode"
+      ],
+      "difficulty": "hard",
+      "category": "IT"
+    },
+    {
+      "id": "52",
+      "question": "How do you create a decorator in Angular?",
+      "correct_answer": "With the @ symbol",
+      "incorrect_answers": [
+        "Using the $ symbol",
+        "Using the Angular CLI",
+        "With the & symbol"
+      ],
+      "difficulty": "hard",
+      "category": "IT"
+    },
+    {
+      "id": "53",
+      "question": "What is the Event Loop in JavaScript?",
+      "correct_answer": "A process that handles asynchronous callbacks",
+      "incorrect_answers": [
+        "A programming construct",
+        "An HTML event handler",
+        "A type of loop statement"
+      ],
+      "difficulty": "hard",
+      "category": "IT"
+    },
+    {
+      "id": "54",
+      "question": "What is the purpose of the ngDoCheck lifecycle hook in Angular?",
+      "correct_answer": "To detect and act upon changes that Angular can't or won't detect on its own",
+      "incorrect_answers": [
+        "To check the version of Angular",
+        "To loop through an array",
+        "To initialize data in a component"
+      ],
+      "difficulty": "hard",
+      "category": "IT"
+    },
+    {
+      "id": "55",
+      "question": "What is a Promise in JavaScript?",
+      "correct_answer": "An object representing the eventual completion or failure of an asynchronous operation",
+      "incorrect_answers": [
+        "A function",
+        "A data type",
+        "A callback"
+      ],
+      "difficulty": "hard",
+      "category": "IT"
+    },
+    {
+      "id": "55",
+      "question": "How can you optimize an Angular application's performance in the change detection process?",
+      "correct_answer": "By using OnPush change detection strategy",
+      "incorrect_answers": [
+        "By removing all components",
+        "By refreshing the page",
+        "By using default change detection"
+      ],
+      "difficulty": "hard",
+      "category": "IT"
+    },
+    {
+      "id": "56",
+      "question": "What is the Angular equivalent of React's Virtual DOM?",
+      "correct_answer": "Angular doesn't use a Virtual DOM",
+      "incorrect_answers": [
+        "ngVirtualDOM",
+        "Angular Shadow DOM",
+        "ngDOM"
+      ],
+      "difficulty": "hard",
+      "category": "IT"
+    },
+    {
+      "id": "57",
+      "question": "In Angular, what is AOT compilation?",
+      "correct_answer": "Ahead-of-Time compilation",
+      "incorrect_answers": [
+        "Array of Types compilation",
+        "Angular Object Templates compilation",
+        "After Opening Tag compilation"
+      ],
+      "difficulty": "hard",
+      "category": "IT"
+    },
+    {
+      "id": "58",
+      "question": "What is the purpose of the 'trackBy' function in Angular's ngFor directive?",
+      "correct_answer": "To provide a unique identifier for each item in the iteration",
+      "incorrect_answers": [
+        "To keep track of the loop index",
+        "To compile the application",
+        "To generate trackable IDs for elements"
+      ],
+      "difficulty": "hard",
+      "category": "IT"
+    },
+    {
+      "id": "59",
+      "question": "How do you handle global state management in Angular?",
+      "correct_answer": "Using services or state management libraries like NgRx",
+      "incorrect_answers": [
+        "Using global variables",
+        "Using the window object",
+        "Using local storage"
+      ],
+      "difficulty": "hard",
+      "category": "IT"
+    },
+    {
+      "id": "60",
+      "question": "What is the difference between 'declarations' and 'providers' in an Angular module?",
+      "correct_answer": "'Declarations' is for components and directives, 'providers' is for services",
+      "incorrect_answers": [
+        "There is no difference",
+        "'Declarations' is for services, 'providers' is for components",
+        "'Declarations' are global, 'providers' are local"
+      ],
+      "difficulty": "hard",
+      "category": "IT"
+    },
+    {
+      "id": "61",
+      "question": "What is the role of the 'ngZone' service in Angular?",
+      "correct_answer": "To optimize performance by controlling change detection",
+      "incorrect_answers": [
+        "To create a new Angular zone",
+        "To compile components",
+        "To add animations to the application"
+      ],
+      "difficulty": "hard",
+      "category": "IT"
+    },
+    {
+      "id": "62",
+      "question": "In Angular, what is the purpose of the 'RouterOutlet' directive?",
+      "correct_answer": "To mark where the router should display views",
+      "incorrect_answers": [
+        "To define a new routing path",
+        "To connect to external routers",
+        "To outlet HTTP requests"
+      ],
+      "difficulty": "hard",
+      "category": "IT"
+    },
+    {
+      "id": "63",
+      "question": "What is 'Lazy Loading' in Angular?",
+      "correct_answer": "Loading feature modules on demand to increase performance",
+      "incorrect_answers": [
+        "A slow loading animation",
+        "Delaying the loading of the application",
+        "Loading data from a server slowly"
+      ],
+      "difficulty": "hard",
+      "category": "IT"
+    },
+    {
+      "id": "64",
+      "question": "How does Angular handle security concerns like XSS?",
+      "correct_answer": "By sanitizing values and using DomSanitizer",
+      "incorrect_answers": [
+        "By using antivirus software",
+        "By encrypting the source code",
+        "By asking for user permissions"
+      ],
+      "difficulty": "hard",
+      "category": "IT"
+    },
+    {
+      "id": "65",
+      "question": "What is the purpose of the 'this' keyword in JavaScript?",
+      "correct_answer": "To refer to the object it belongs to",
+      "incorrect_answers": [
+        "To define a new function",
+        "To create a loop",
+        "To call a method"
+      ],
+      "difficulty": "medium",
+      "category": "IT"
+    },
+    {
+      "id": "66",
+      "question": "Which method converts a JSON string into a JavaScript object?",
+      "correct_answer": "JSON.parse()",
+      "incorrect_answers": [
+        "JSON.stringify()",
+        "JSON.toObject()",
+        "JSON.toJS()"
+      ],
+      "difficulty": "medium",
+      "category": "IT"
+    },
+    {
+      "id": "67",
+      "question": "What does 'NaN' stand for in JavaScript?",
+      "correct_answer": "Not-a-Number",
+      "incorrect_answers": [
+        "Number-and-Name",
+        "New-and-Native",
+        "Null-and-Null"
+      ],
+      "difficulty": "medium",
+      "category": "IT"
+    },
+    {
+      "id": "68",
+      "question": "How do you find the number with the highest value of x and y?",
+      "correct_answer": "Math.max(x, y)",
+      "incorrect_answers": [
+        "Math.highest(x, y)",
+        "Math.largest(x, y)",
+        "Math.maximum(x, y)"
+      ],
+      "difficulty": "medium",
+      "category": "IT"
+    },
+    {
+      "id": "69",
+      "question": "Which event occurs when the user clicks on an HTML element?",
+      "correct_answer": "onclick",
+      "incorrect_answers": [
+        "onmouseover",
+        "onchange",
+        "onmouseclick"
+      ],
+      "difficulty": "medium",
+      "category": "IT"
+    },
+    {
+      "id": "70",
+      "question": "What is the correct JavaScript syntax to change the content of the HTML element below?\n<p id='demo'>This is a demonstration.</p>",
+      "correct_answer": "document.getElementById('demo').innerHTML = 'Hello World!';",
+      "incorrect_answers": [
+        "#demo.innerHTML = 'Hello World!';",
+        "document.getElement('p').innerHTML = 'Hello World!';",
+        "document.getElementByName('p').innerHTML = 'Hello World!';"
+      ],
+      "difficulty": "medium",
+      "category": "IT"
+    },
+    {
+      "id": "71",
+      "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
+      "correct_answer": "<script src='xxx.js'>",
+      "incorrect_answers": [
+        "<script href='xxx.js'>",
+        "<script name='xxx.js'>",
+        "<script file='xxx.js'>"
+      ],
+      "difficulty": "medium",
+      "category": "IT"
+    },
+    {
+      "id": "72",
+      "question": "How do you declare a JavaScript variable?",
+      "correct_answer": "var carName;",
+      "incorrect_answers": [
+        "variable carName;",
+        "v carName;",
+        "var = carName;"
+      ],
+      "difficulty": "medium",
+      "category": "IT"
+    },
+    {
+      "id": "73",
+      "question": "Which operator is used to assign a value to a variable?",
+      "correct_answer": "=",
+      "incorrect_answers": [
+        "-",
+        "x",
+        "*"
+      ],
+      "difficulty": "medium",
+      "category": "IT"
+    },
+    {
+      "id": "74",
+      "question": "What will the following code return: Boolean(10 > 9)",
+      "correct_answer": "true",
+      "incorrect_answers": [
+        "false",
+        "NaN",
+        "undefined"
+      ],
+      "difficulty": "medium",
+      "category": "IT"
+    },
+    {
+      "id": "75",
+      "question": "What is TypeScript mainly used for?",
+      "correct_answer": "To provide static typing for JavaScript",
+      "incorrect_answers": [
+        "To create new programming languages",
+        "To add HTML tags",
+        "To style web pages"
+      ],
+      "difficulty": "easy",
+      "category": "IT"
+    },
+    {
+      "id": "76",
+      "question": "Which file extension is used for TypeScript files?",
+      "correct_answer": ".ts",
+      "incorrect_answers": [
+        ".js",
+        ".tsx",
+        ".tscript"
+      ],
+      "difficulty": "easy",
+      "category": "IT"
+    },
+    {
+      "id": "77",
+      "question": "What is the main advantage of using TypeScript?",
+      "correct_answer": "It helps catch errors early during development",
+      "incorrect_answers": [
+        "It runs faster than JavaScript",
+        "It replaces JavaScript",
+        "It is easier to write than JavaScript"
+      ],
+      "difficulty": "easy",
+      "category": "IT"
+    },
+    {
+      "id": "78",
+      "question": "Can TypeScript be used for backend development?",
+      "correct_answer": "Yes, it can be used with Node.js",
+      "incorrect_answers": [
+        "No, it's only for frontend",
+        "No, it's not a programming language",
+        "Yes, but only with PHP"
+      ],
+      "difficulty": "easy",
+      "category": "IT"
+    },
+    {
+      "id": "79",
+      "question": "What does 'let' keyword in JavaScript declare?",
+      "correct_answer": "A block-scoped variable",
+      "incorrect_answers": [
+        "A constant value",
+        "A global variable",
+        "A function"
+      ],
+      "difficulty": "easy",
+      "category": "IT"
+    },
+    {
+      "id": "80",
+      "question": "What is the output of 'console.log(typeof null)' in JavaScript?",
+      "correct_answer": "object",
+      "incorrect_answers": [
+        "null",
+        "undefined",
+        "NaN"
+      ],
+      "difficulty": "easy",
+      "category": "IT"
+    },
+    {
+      "id": "81",
+      "question": "Which method can be used to combine two arrays in JavaScript?",
+      "correct_answer": "concat()",
+      "incorrect_answers": [
+        "join()",
+        "merge()",
+        "combine()"
+      ],
+      "difficulty": "easy",
+      "category": "IT"
+    },
+    {
+      "id": "82",
+      "question": "How do you create a function in JavaScript?",
+      "correct_answer": "function myFunction() {}",
+      "incorrect_answers": [
+        "function:myFunction() {}",
+        "function = myFunction() {}",
+        "create myFunction() {}"
+      ],
+      "difficulty": "easy",
+      "category": "IT"
+    },
+    {
+      "id": "83",
+      "question": "Which operator can be used to check if two values are equal in type and value?",
+      "correct_answer": "===",
+      "incorrect_answers": [
+        "==",
+        "=",
+        "equals()"
+      ],
+      "difficulty": "easy",
+      "category": "IT"
+    },
+    {
+      "id": "84",
+      "question": "What is the correct syntax to create a new object in JavaScript?",
+      "correct_answer": "var obj = {};",
+      "incorrect_answers": [
+        "var obj = new Object();",
+        "var obj = create Object;",
+        "var obj = Object();"
+      ],
+      "difficulty": "easy",
+      "category": "IT"
+    },
+    {
+      "id": "85",
+      "question": "What is the capital of France?",
+      "correct_answer": "Paris",
+      "incorrect_answers": [
+        "Rome",
+        "Madrid",
+        "Berlin"
+      ],
+      "difficulty": "easy",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "86",
+      "question": "How many colors are there in a rainbow?",
+      "correct_answer": "7",
+      "incorrect_answers": [
+        "5",
+        "6",
+        "8"
+      ],
+      "difficulty": "easy",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "87",
+      "question": "What is the largest planet in our Solar System?",
+      "correct_answer": "Jupiter",
+      "incorrect_answers": [
+        "Saturn",
+        "Earth",
+        "Mars"
+      ],
+      "difficulty": "easy",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "88",
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "correct_answer": "William Shakespeare",
+      "incorrect_answers": [
+        "Charles Dickens",
+        "Jane Austen",
+        "Leo Tolstoy"
+      ],
+      "difficulty": "easy",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "89",
+      "question": "What gas do plants breathe in that humans and animals breathe out?",
+      "correct_answer": "Carbon Dioxide",
+      "incorrect_answers": [
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "difficulty": "easy",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "90",
+      "question": "What is the name of the fairy in Peter Pan?",
+      "correct_answer": "Tinker Bell",
+      "incorrect_answers": [
+        "Fairy Godmother",
+        "Puck",
+        "Wendy"
+      ],
+      "difficulty": "easy",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "91",
+      "question": "Which ocean is the largest?",
+      "correct_answer": "Pacific Ocean",
+      "incorrect_answers": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean"
+      ],
+      "difficulty": "easy",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "92",
+      "question": "What is the name of the toy cowboy in Toy Story?",
+      "correct_answer": "Woody",
+      "incorrect_answers": [
+        "Buzz Lightyear",
+        "Andy",
+        "Jessie"
+      ],
+      "difficulty": "easy",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "93",
+      "question": "What is the hardest natural substance on Earth?",
+      "correct_answer": "Diamond",
+      "incorrect_answers": [
+        "Gold",
+        "Iron",
+        "Ruby"
+      ],
+      "difficulty": "easy",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "94",
+      "question": "What is the main ingredient in guacamole?",
+      "correct_answer": "Avocado",
+      "incorrect_answers": [
+        "Tomato",
+        "Onion",
+        "Garlic"
+      ],
+      "difficulty": "easy",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "95",
+      "question": "What is the smallest country in the world?",
+      "correct_answer": "Vatican City",
+      "incorrect_answers": [
+        "Monaco",
+        "Nauru",
+        "Liechtenstein"
+      ],
+      "difficulty": "medium",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "96",
+      "question": "Which artist painted the ceiling of the Sistine Chapel in Rome?",
+      "correct_answer": "Michelangelo",
+      "incorrect_answers": [
+        "Leonardo da Vinci",
+        "Raphael",
+        "Donatello"
+      ],
+      "difficulty": "medium",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "97",
+      "question": "What is the main component of the sun?",
+      "correct_answer": "Hydrogen",
+      "incorrect_answers": [
+        "Helium",
+        "Oxygen",
+        "Carbon"
+      ],
+      "difficulty": "medium",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "98",
+      "question": "Which planet is known as the 'Red Planet'?",
+      "correct_answer": "Mars",
+      "incorrect_answers": [
+        "Jupiter",
+        "Saturn",
+        "Venus"
+      ],
+      "difficulty": "medium",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "99",
+      "question": "What is the name of the longest river in the world?",
+      "correct_answer": "Nile",
+      "incorrect_answers": [
+        "Amazon",
+        "Yangtze",
+        "Mississippi"
+      ],
+      "difficulty": "medium",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "100",
+      "question": "Who is known as the father of modern physics?",
+      "correct_answer": "Albert Einstein",
+      "incorrect_answers": [
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Niels Bohr"
+      ],
+      "difficulty": "medium",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "101",
+      "question": "What is the capital of Australia?",
+      "correct_answer": "Canberra",
+      "incorrect_answers": [
+        "Sydney",
+        "Melbourne",
+        "Perth"
+      ],
+      "difficulty": "medium",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "102",
+      "question": "Which element has the chemical symbol 'Au'?",
+      "correct_answer": "Gold",
+      "incorrect_answers": [
+        "Silver",
+        "Copper",
+        "Platinum"
+      ],
+      "difficulty": "medium",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "103",
+      "question": "What is the largest mammal in the world?",
+      "correct_answer": "Blue Whale",
+      "incorrect_answers": [
+        "Elephant",
+        "Giraffe",
+        "Hippopotamus"
+      ],
+      "difficulty": "medium",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "104",
+      "question": "What is the name of the first artificial Earth satellite?",
+      "correct_answer": "Sputnik 1",
+      "incorrect_answers": [
+        "Explorer 1",
+        "Voyager 1",
+        "Apollo 11"
+      ],
+      "difficulty": "medium",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "105",
+      "question": "What is the phenomenon where the moon passes between the Earth and the sun called?",
+      "correct_answer": "Solar Eclipse",
+      "incorrect_answers": [
+        "Lunar Eclipse",
+        "Solar Flare",
+        "Moon Shadow"
+      ],
+      "difficulty": "hard",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "106",
+      "question": "Who was the first woman to win a Nobel Prize (in 1903)?",
+      "correct_answer": "Marie Curie",
+      "incorrect_answers": [
+        "Rosalind Franklin",
+        "Ada Lovelace",
+        "Lise Meitner"
+      ],
+      "difficulty": "hard",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "107",
+      "question": "What is the capital city of Mongolia?",
+      "correct_answer": "Ulaanbaatar",
+      "incorrect_answers": [
+        "Astana",
+        "Bishkek",
+        "Thimphu"
+      ],
+      "difficulty": "hard",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "108",
+      "question": "Which philosopher wrote 'The Republic'?",
+      "correct_answer": "Plato",
+      "incorrect_answers": [
+        "Socrates",
+        "Aristotle",
+        "Epicurus"
+      ],
+      "difficulty": "hard",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "109",
+      "question": "What is the name of the deepest known location in the Earth's oceans?",
+      "correct_answer": "Mariana Trench",
+      "incorrect_answers": [
+        "Tonga Trench",
+        "Java Trench",
+        "Puerto Rico Trench"
+      ],
+      "difficulty": "hard",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "110",
+      "question": "Which composer became deaf later in his life?",
+      "correct_answer": "Ludwig van Beethoven",
+      "incorrect_answers": [
+        "Wolfgang Amadeus Mozart",
+        "Johann Sebastian Bach",
+        "Franz Schubert"
+      ],
+      "difficulty": "hard",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "111",
+      "question": "What is the name of the phobia that involves an abnormal fear of spiders?",
+      "correct_answer": "Arachnophobia",
+      "incorrect_answers": [
+        "Acrophobia",
+        "Agoraphobia",
+        "Claustrophobia"
+      ],
+      "difficulty": "hard",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "112",
+      "question": "What is the chemical formula for table salt?",
+      "correct_answer": "NaCl",
+      "incorrect_answers": [
+        "KCl",
+        "LiCl",
+        "MgCl2"
+      ],
+      "difficulty": "hard",
+      "category": "General Knowledge"
+    },
+    {
+      "id": "113",
+      "question": "Who was the first person to reach the South Pole?",
+      "correct_answer": "Roald Amundsen",
+      "incorrect_answers": [
+        "Robert Falcon Scott",
+        "Ernest Shackleton",
+        "Edmund Hillary"
+      ],
+      "difficulty": "hard",
+      "category": "General Knowledge"
+    },
+    {
+      "0": {
+        "category": "IT",
+        "difficulty": "eazy",
+        "question": "What kind of data type is boolean in javascript? "
+      },
+      "id": "3ff0"
+    },
+    {
+      "0": {
+        "category": "IT",
+        "difficulty": "eazy",
+        "question": "What kind of data type is boolean in javascript? "
+      },
+      "id": "b16e"
+    },
+    {
+      "0": {
+        "category": "IT",
+        "difficulty": "eazy",
+        "question": "What kind of data type is boolean in javascript? "
+      },
+      "id": "e7a0"
+    },
+    {
+      "0": {
+        "id": 1716746566248,
+        "category": "IT",
+        "difficulty": "eazy",
+        "question": "What kind of data type is boolean in javascript? ",
+        "correctAnswer": "Primitive",
+        "incorrectAnswers": [
+          "Object",
+          "Array",
+          "Not a type in javasript"
+        ]
+      },
+      "id": "34b2"
+    },
+    {
+      "0": {
+        "id": 1716832817290,
+        "category": "History",
+        "difficulty": "eazy",
+        "question": "Who was the most feared enemy in all roman empire history ? ",
+        "correctAnswer": "Hannibal",
+        "incorrectAnswers": [
+          "Spartacus",
+          "Zeus",
+          "Heracle"
+        ]
+      },
+      "id": "32af"
+    },
+    {
+      "0": {
+        "id": 1716832903559,
+        "category": "Geography",
+        "difficulty": "eazy",
+        "question": "Where are the great piramids located ? ",
+        "correctAnswer": "Egypt",
+        "incorrectAnswers": [
+          "South Africa ",
+          "Romania",
+          "New Zeeland"
+        ]
+      },
+      "id": "7ec1"
+    },
+    {
+      "0": {
+        "id": 1716995423693,
+        "category": "History",
+        "difficulty": "eazy",
+        "question": "Who was the most feared enemy in all roman empire history ? ",
+        "correctAnswer": "Hannibal",
+        "incorrectAnswers": [
+          "Spartacus",
+          "Zeus",
+          "Heracle"
+        ]
+      },
+      "id": "fc3a"
+    },
+    {
+      "0": {
+        "id": 1718116936541,
+        "category": "History",
+        "difficulty": "dadad",
+        "question": "What kind of data type is boolean in javascript? ",
+        "correctAnswer": "Hannibal",
+        "incorrectAnswers": [
+          "",
+          "Romania",
+          "Not a type in javasript"
+        ]
+      },
+      "id": "d9ad"
+    }
+  ],
+  "translations": {
+    "en": {
+      "menu": {
+        "contact": "Contact",
+        "quizzes": "Quizzes",
+        "login": "Login"
+      },
+      "banner": {
+        "heading": "Welcome to a new learning experience!",
+        "info": "Are you ready to dive into the depths of knowledge with a fresh set of quizzes? Join us on this intellectual adventure and test your limits! Each question is an opportunity to learn something new and demonstrate your mental prowess. Let’s get started!"
+      },
+      "quizzes": {
+        "history": "Welcome to our History Quiz! Test your knowledge on the Roman era’s pivotal moments in a few engaging questions. Ready to dive into the past?",
+        "science": "Join our interactive science quiz! From atoms to galaxies, test your knowledge and unravel the universe’s mysteries. Ready to ignite your curiosity? 🌌🔬",
+        "it": "Explore TypeScript and Angular in our engaging quiz! Test your knowledge of these powerful technologies and discover fascinating insights. Ready to participate? 🚀",
+        "general_knowledge": "If you’re curious about experiencing the thrill of a quiz night, join us for our general knowledge quiz and put your smarts to the test! 🧠✨",
+        "geography": "If you’re curious about experiencing the thrill of a quiz night, join us for our general knowledge quiz and put your smarts to the test! 🧠✨"
+      },
+      "testimonials": "Client testimonials"
+    },
+    "ro": {
+      "menu": {
+        "contact": "Contact",
+        "quizzes": "Chestionare",
+        "login": "Autentificare"
+      },
+      "banner": {
+        "heading": "Bine ați venit la o nouă experiență de învățare!",
+        "info": "Sunteți gata să vă scufundați în adâncurile cunoașterii cu un set proaspăt de chestionare? Alăturați-vă nouă în această aventură intelectuală și testați-vă limitele! Fiecare întrebare este o oportunitate de a învăța ceva nou și de a demonstra proeza mentală. Să începem!"
+      },
+      "quizzes": {
+        "history": "Bine ați venit la Chestionarul nostru de Istorie! Testați-vă cunoștințele despre momentele pivot ale erei romane în câteva întrebări captivante. Gata să vă scufundați în trecut?",
+        "science": "Alăturați-vă chestionarului nostru interactiv de știință! De la atomi la galaxii, testați-vă cunoștințele și dezlegați misterele universului. Gata să vă aprindeți curiozitatea? 🌌🔬",
+        "it": "Explorați TypeScript și Angular în chestionarul nostru captivant! Testați-vă cunoștințele despre aceste tehnologii puternice și descoperiți perspective fascinante. Gata să participați? 🚀",
+        "general_knowledge": "Dacă sunteți curioși să experimentați emoția unei nopți de chestionar, alăturați-vă nouă pentru chestionarul nostru de cunoștințe generale și testați-vă inteligența! 🧠✨",
+        "geography": "Dacă sunteți curioși să experimentați emoția unei nopți de chestionar, alăturați-vă nouă pentru chestionarul nostru de cunoștințe generale și testați-vă inteligența! 🧠✨"
+      },
+      "testimonials": "Testimoniale ale clienților"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF=8">
+    <title> Customer survey</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <article class="container">
+        <h1> Festivaluri in oras</h1>
+        <form>
+            <div class="personal-details">
+                <input type="text" name="Name" placeholder="Prenumele" required>
+                <input type="text" name="Family-name" placeholder="Numele de Familie" required>
+                <input type="email" name="email" placeholder="email" required>
+                <label for="birth-date"> Data de nastere</label>
+                <input type="date" name="birth-date" value="02/09/2024" min="01/01/1901" max="02/09/2006">
+                <fieldset>
+                    <legend> Selecteaza un gen:</legend>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male" class="gender-label">Masculin</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female" class="gender-label">Feminin</label>
+                </fieldset>
+
+                <label for="occupation">Ce rol va descrie:</label>
+                <input list="occupations" class="role-choice" name="choose-occupation">
+                <datalist id="occupations">
+                    <option value="Elev/a"> </option>
+                    <option value="Angajat"> </option>
+                    <option value="Neangajat"> </option>
+                    <option value="Antreprenor"></option>
+                    <option value="Altele"></option>
+                </datalist>
+            </div>
+            <div class="attendance-option">
+                <fieldset>
+                    <legend> Cat de des mergeti la festival?</legend>
+                    <input type="radio" id="deloc" name="attendance" value="deloc" class="radio-btn">
+                    <label for="deloc" class="radio-label">Deloc </label>
+                    <input type="radio" id="rar"  name="attendance" value="rar" class="radio-btn" >
+                    <label for="rar" class="radio-label">Rar </label>
+                    <input type="radio" id="des" name="attendance" value="des"class="radio-btn">
+                    <label for="des" class="radio-label">Des </label>
+                    <input type="radio" id="foarte-des" name="attendance" value="foarte des" class="radio-btn">
+                    <label for="foarte-des" class="radio-label">Foarte des </label>
+                </fieldset>
+            </div>
+            <div class="participate-option">
+                <fieldset>
+                    <legend>Care sunt sansele sa participati la urmatorul festival? </legend>
+                    <input type="radio" id="deloc-1" name="participate" value="deloc" class="radio-btn">
+                    <label for="deloc-1" class="radio-label">Deloc</label>
+                    <input type="radio" id="mici" name="participate" value="mici" class="radio-btn">
+                    <label for="mici" class="radio-label">Mici</label>
+                    <input type="radio" id="mari" name="participate" value="mari" class="radio-btn">
+                    <label for="mari" class="radio-label">Mari</label>
+                    <input type="radio" id="foarte-mari" name="participate" value="foarte-mari" class="radio-btn">
+                    <label for="foarte-mari" class="radio-label">Foarte mari</label>
+                </fieldset>
+            </div>
+            <div class="music-option">
+                <fieldset>
+                    <legend>Ce tip de muzica asculti ? </legend>
+                    <input type="checkbox" id="R&B" name="R&B" class="checkbox-btn">
+                    <label for="R&B" class="checkbox-label"> R&B </label>
+                    <input type="checkbox" id="pop" name="pop" class="checkbox-btn">
+                    <label for="pop" class="checkbox-label"> Pop</label>
+                    <input type="checkbox" id="rock" name="rock" class="checkbox-btn">
+                    <label for="rock" class="checkbox-label"> Rock</label>
+                    <input type="checkbox" id="EDM" name="EDM " class="checkbox-btn">
+                    <label for="EDM" class="checkbox-label">EDM</label>
+                    <input type="checkbox" id="hip-hop" name="hip-hop" class="checkbox-btn">
+                    <label for="hip-hop" class="checkbox-label">Hip Hop </label>
+                    <input type="checkbox" id="jazz" name="jazz" class="checkbox-btn">
+                    <label for="jazz" class="checkbox-label"> Jazz</label>
+                    <input type="checkbox" id="reggae" name="reggae" class="checkbox-btn">
+                    <label for="reggae" class="checkbox-label"> Reggae</label>
+                    <input type="checkbox" id="classic" name="classic" class="checkbox-btn">
+                    <label for="classic" class="checkbox-label">Classic </label>
+                    <input type="checkbox" id="blues" name="blues" class="checkbox-btn">
+                    <label for="blues" class="checkbox-label">Blues</label>
+                    <input type="checkbox" id="country" name="country" class="checkbox-btn">
+                    <label for="country" class="checkbox-label"> Country </label>
+                    <input type="checkbox" id="intrumental" name="intrumental" class="checkbox-btn">
+                    <label for="intrumental" class="checkbox-label">Intrumental </label>
+                    <input type="checkbox" id="folk" name="folk" class="checkbox-btn">
+                    <label for="folk" class="checkbox-label"> Folk </label>
+                    <input type="checkbox" id="house" name="house" class="checkbox-btn">
+                    <label for="house" class="checkbox-label"> House </label>
+                </fieldset>
+            </div>
+            <label for="festival-experience">Descrie in cateva randuri experienta de la ultimul festival:
+            </label>
+            <textarea name="festival-experience" rows="10" cols="40" placeholder="Scrie aici raspunsul"></textarea>
+            </textarea>
+            <br>
+            <label for="opinion"> Ce parere ai despre poluarea fonica a festivalurilor din interiorul orasului?</label>
+            <textarea name="opinion" rows="10" cols="40" placeholder="Scrie aici raspunsul"></textarea>
+            <input type="button" value="submit" name="submit" class="submit-button">
+            <input type="button" value="cancel" name="reset" class="reset-button">
+    </article>
+
+</body>
+
+</html>

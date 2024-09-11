@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@100..900&family=Yeseva+One&display=swap');
+:root {
+
+    --margin-xs: 4px;
+    --margin-sm: 8px;
+    --margin-md: 12px;
+    --margin-lg: 20px;
+    --margin-xl: 24px;
+
+    --padding-xs: 8px;
+    --padding-sm: 10px;
+    --padding-md: 14px;
+    --padding-lg: 20px;
+    --padding-xl: 24px;
+
+    --font-size-xs: 4px;
+    --font-size-sm: 8px;
+    --font-size-md: 12px;
+    --font-size-lg: 14px;
+    --font-size-xl: 16px;
+    --font-size-2xl: 320px;
+    --font-size-3xl: 50px;
+
+    --sofa-color: #aa3955;
+    --olive-green: rgb(137, 145, 118);
+    --wall-color: rgb(214, 216, 211);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
